@@ -95,4 +95,6 @@ df.loc[mask, "Industry"] = df.loc[mask, "Symbol"].map(lambda x: sector_industry_
 
 print(df.isna().sum())
 
+df.drop_duplicates(inplace=True)
+
 df.to_csv("Data/cleaned_govtrades.csv", index=False)
