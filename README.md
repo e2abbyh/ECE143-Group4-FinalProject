@@ -13,7 +13,8 @@ This analysis uses 2 datasets: GovTrades and the SCAC Database. The first datase
 - calendar
 
 ## How To Run
-1. Ensure Class Action Lawsuits is at location: "../Private Data/Satriya_UCSD_DATA_2025.xlsx"
-2. Open and run DataCleaning_Stanford.py
-3. Open and run DataCleaning_Combined.py
-3. Open and run Analysis.ipynb
+1. Clone repository: https://github.com/e2abbyh/ECE143-Group4-FinalProject.git
+2. Ensure Class Action Lawsuits is at location: "../Private Data/Satriya_UCSD_DATA_2025.xlsx"
+3. Open and run DataCleaning_Stanford.py
+4. Open and run DataCleaning_Combined.py
+5. Open and run Analysis.ipynb
